@@ -1,4 +1,4 @@
-# Project1_Revature
+# Project1_Revature.
 
 
 •	Project 1 will consist of using big data tools to answer questions about datasets from Wikipedia. There are a series of basic analysis questions.
