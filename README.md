@@ -33,10 +33,13 @@ Technologies
 Links for data
 •	All Analytics
     https://dumps.wikimedia.org/other/analytics/
+    
 •	Pageviews Filtered to Human Traffic
     https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews
+    
 •	Page Revision and User History
     https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Edits/Mediawiki_history_dumps#Technical_Documentation
+    
 •	Monthly Clickstream
     https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream
 
