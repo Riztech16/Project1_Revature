@@ -18,8 +18,11 @@
 
 Presentations
 •	Bring a simple slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and any assumptions and simplifications you made on the way to those results.
+
 •	I may ask you to run an analysis on the day of the presentation, so be prepared to do so.
+
 •	We'll have 5-10 minutes a piece, so make sure your presentation can be covered in that time, focusing on the parts of your analysis you find most interesting.
+
 •	Include a link to your github repository at the end of your slides
 
 Technologies
@@ -33,15 +36,19 @@ Technologies
 Links for data
 
 •	All Analytics
-    https://dumps.wikimedia.org/other/analytics/
+
+  https://dumps.wikimedia.org/other/analytics/
     
 •	Pageviews Filtered to Human Traffic
+
     https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews
     
 •	Page Revision and User History
+
     https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Edits/Mediawiki_history_dumps#Technical_Documentation
     
 •	Monthly Clickstream
+
     https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream
 
 
