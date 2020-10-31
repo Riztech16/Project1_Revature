@@ -27,10 +27,15 @@ Presentations
 
 Technologies
   •	Hadoop MapReduce
-  •	YARN
+  
+  •	YARN 
+  
   •	HDFS
+  
   •	Scala 2.13
+  
   •	Hive
+  
   •	Git + GitHub
 
 Links for data
