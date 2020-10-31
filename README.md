@@ -17,12 +17,11 @@
 6.	Run an analysis you find interesting on the wikipedia datasets we're using.
 
 Presentations
-<<<<<<< HEAD
+
 •	Bring a simple slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and  any assumptions and simplifications you made on the way to those results.
-=======
+
 •	Bring a simple slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and any assumptions and simplifications you made on the way to those results.
 
->>>>>>> d5080b148f4d3aa48906847cdf1fdcc9cbc9f2ab
 •	I may ask you to run an analysis on the day of the presentation, so be prepared to do so.
 
 •	We'll have 5-10 minutes a piece, so make sure your presentation can be covered in that time, focusing on the parts of your analysis you find most interesting.
@@ -31,20 +30,14 @@ Presentations
 
 Technologies
   •	Hadoop MapReduce
-  
   •	YARN 
-  
   •	HDFS
-  
   •	Scala 2.13
-  
   •	Hive
-  
   •	Git + GitHub
 
 Links for data
 
-<<<<<<< HEAD
 All Analytics
 https://dumps.wikimedia.org/other/analytics/
 
@@ -56,23 +49,5 @@ https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Edits/Mediawiki_history_
 
 Monthly Clickstream
 https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream
-=======
-•	All Analytics
-
-  https://dumps.wikimedia.org/other/analytics/
-    
-•	Pageviews Filtered to Human Traffic
-
- https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews
-    
-•	Page Revision and User History
-
- https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Edits/Mediawiki_history_dumps#Technical_Documentation
-    
-•	Monthly Clickstream
-
- https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream
->>>>>>> d5080b148f4d3aa48906847cdf1fdcc9cbc9f2ab
-
 
 
