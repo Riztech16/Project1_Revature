@@ -12,11 +12,13 @@
 4.	Find an example of an English wikipedia article that is relatively more popular in the UK. Find the same for the US and Australia.
 5.	Analyze how many users will see the average vandalized wikipedia page before the offending edit is reversed.
 6.	Run an analysis you find interesting on the wikipedia datasets we're using.
+
 Presentations
-•	Bring a simple slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and any assumptions and simplifications you made on the way to those results.
+•	Bring a simple slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and  any assumptions and simplifications you made on the way to those results.
 •	I may ask you to run an analysis on the day of the presentation, so be prepared to do so.
 •	We'll have 5-10 minutes a piece, so make sure your presentation can be covered in that time, focusing on the parts of your analysis you find most interesting.
 •	Include a link to your github repository at the end of your slides
+
 Technologies
 •	Hadoop MapReduce
 •	YARN
@@ -26,13 +28,18 @@ Technologies
 •	Git + GitHub
 
 Links for data
-•	All Analytics
-•	Pageviews Filtered to Human Traffic
-o	https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews
-•	Page Revision and User History
-o	https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Edits/Mediawiki_history_dumps#Technical_Documentation
-•	Monthly Clickstream
-o	https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream
+
+All Analytics
+https://dumps.wikimedia.org/other/analytics/
+
+Pageviews Filtered to Human Traffic
+https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews
+
+Page Revision and User History
+https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Edits/Mediawiki_history_dumps#Technical_Documentation
+
+Monthly Clickstream
+https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream
 
 
 
