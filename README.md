@@ -1,2 +1,2 @@
 # Project1_Revature
-analyzing Wikipedia datasets using HIVE 
+Analyzing Wikipedia datasets using HIVE 
