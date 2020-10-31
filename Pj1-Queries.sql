@@ -85,3 +85,21 @@ LIMIT 10;
 #Question 3:  The series of wikipedia articles, starting with Hotel California that
 #keeps the largest fraction of its readers clicking on internal links
 
+#creating separate table for referrers that begin with hotel california 
+CREATE TABLE CLICK_STREAM_HOTEL_CALIFORNIA_LIKE
+(REFERRER STRING, CURRENT_ARTICLE STRING, CURRENT_ARTICLE_VIEWS INT)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\t';
+
+#Loading data from internal table
+SELECT REFERRER, CURRENT_ARTICLE, CURRENT_ARTICLE_VIEWS
+FROM CLICK_STREAM_INTERNAL_LINKS
+WHERE REFERRER LIKE 'Hotel_California%';
+
+#Finding most viewed internal link article that begins with 'Hotel_California'(TOP 10)
+SELECT CURRENT_ARTICLE, REFERRER, SUM(CURRENT_ARTICLE_VIEWS) AS MOST_VIEWS
+FROM CLICK_STREAM_HOTEL_CALIFORNIA_LIKE
+GROUP BY CURRENT_ARTICLE, REFERRER
+ORDER BY MOST_VIEWS DESC
+LIMIT 10;
+####################################################################
