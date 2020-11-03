@@ -162,8 +162,12 @@ ORDER BY ARTICLE_VIEWS_INTERNALLY DESC
 LIMIT 20;
 ####################################################################
 
+####################################################################
 #Question 4: English wikipedia article that is relatively more popular in the UK. 
 #Find the same for the US and Australia.
+
+#use the database
+USE USER_REVISION_HISTORY_PAGE_DB;
 
 #creating general table to store large dataset
 CREATE TABLE REVISION_USER_HISTORY_PAGE_GENERAL_DATA
@@ -184,3 +188,12 @@ REVISION_IS_DELETED_BY_PAGE_DELETION BOOLEAN, REVISION_DELETED_BY_PAGE_DELETION_
 REVISION_SECONDS_TO_IDENTITY_REVERT BIGINT, REVISION_IS_IDENTITY_REVERT BOOLEAN, REVISION_IS_FROM_BEFORE_PAGE_CREATION BOOLEAN, REVISION_TAGS ARRAY<STRING>)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY '\t';
+#######################################################################
+
+#######################################################################
+
+#creating simplified general table to store large dataset
+CREATE TABLE REVISION_USER_HISTORY_PAGE_SIMPLIFIED_GENERAL_DATA
+(PAGE_TITLE STRING, PAGE_CREATION_TIMESTAMP STRING, 
+
+
