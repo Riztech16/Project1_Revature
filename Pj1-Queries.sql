@@ -163,8 +163,7 @@ LIMIT 20;
 ####################################################################
 
 ####################################################################
-#Question 4: English wikipedia article that is relatively more popular in the UK. 
-#Find the same for the US and Australia.
+#Question 5: Average article views before offending edit is reversed.
 
 #use the database
 USE REVISION_USER_HISTORY_PAGE_DB;
@@ -188,9 +187,6 @@ REVISION_IS_DELETED_BY_PAGE_DELETION BOOLEAN, REVISION_DELETED_BY_PAGE_DELETION_
 REVISION_SECONDS_TO_IDENTITY_REVERT BIGINT, REVISION_IS_IDENTITY_REVERT BOOLEAN, REVISION_IS_FROM_BEFORE_PAGE_CREATION BOOLEAN, REVISION_TAGS ARRAY<STRING>)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY '\t';
-#######################################################################
-
-#######################################################################
 
 #creating simplified general table to store large dataset
 CREATE TABLE REVISION_USER_HISTORY_PAGE_SIMPLIFIED_GENERAL_DATA
@@ -247,7 +243,7 @@ FIELDS TERMINATED BY '\t';
 
 LOAD DATA LOCAL INPATH '/home/syed/clickstream-enwiki-2020-01.tsv' INTO TABLE CLICK_STREAM_GENERAL_DATA;
 
-#creating separate table for internal link wikipedia articles
+#creating separate table for wikipedia articles
 CREATE TABLE CLICK_STREAM_VIEWS
 (CURRENT_ARTICLE STRING, CURRENT_ARTICLE_VIEWS INT)
 ROW FORMAT DELIMITED
@@ -303,7 +299,7 @@ FIELDS TERMINATED BY '    ';
 LOAD DATA LOCAL INPATH '/home/syed/page_views_06/*' INTO TABLE PAGE_VIEW_GENERAL_DATA_1_06;
 
 CREATE TABLE VIEWS_BEFORE_FIXED
-(ARTICLE STRING, VIEWS_BEFORE_VANDALISM INT)
+(ARTICLE STRING, VIEWS_BEFORE_VANDALISM_REVERSED INT)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY '\t';
 
@@ -343,5 +339,5 @@ ON PVGD.ARTICLE_NAME = AC.PAGE_TITLE
 WHERE AC.PAGE_TITLE='Reynhard_Sinaga'
 GROUP BY PVGD.ARTICLE_NAME;
 
-SELECT AVG(VIEWS_BEFORE_VANDALISM) AS AVERAGE_VIEWS_BEFORE_OFFENDING_EDIT_IS_REVERSED
+SELECT AVG(VIEWS_BEFORE_VANDALISM_REVERSED) AS AVERAGE_VIEWS_BEFORE_OFFENDING_EDIT_IS_REVERSED
 FROM VIEWS_BEFORE_FIXED;
