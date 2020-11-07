@@ -573,16 +573,17 @@ FROM REVISION_USER_HISTORY_PAGE_SIMPLIFIED_GENERAL_DATA
 WHERE VANDALISM_UNIX_TIMESTAMP > 1577836800;
 
 
-SELECT ((SUM(REVISION_SECONDS_TO_IDENTITY_REVERT) / 86400) AS DAYS_TAKE_FOR_1_REVISION
+SELECT ((SUM(REVISION_SECONDS_TO_IDENTITY_REVERT) / SUM(PAGE_REVISION_COUNT)) * 86400) AS DAYS_TAKE_FOR_1_REVISION
 FROM JANUARY_2020_VANDALISMS; #0.06
 
 SELECT AVG(CURRENT_ARTICLE_VIEWS) AS AVERAGE_VIEWS_IN_A_MONTH
 FROM CLICK_STREAM_GENERAL_DATA; #232
 
-SELECT (0.06 * 232);
+SELECT (0.06 * 232); # 11.55
 
 #ALMOST 11.55 views before edit is reversed.
-
+#Low number because i restricted my timeline to be only between Jan 01 - 31 of 2020
+#while the data set was very large and had reecords before 2020. 
 
 ####################################################################################
 #Question 6: Which domain searched for coronavirus the most
