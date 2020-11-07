@@ -581,6 +581,8 @@ FROM CLICK_STREAM_GENERAL_DATA; #232
 
 SELECT (0.06 * 232);
 
+#ALMOST 11.55 views before edit is reversed.
+
 
 ####################################################################################
 #Question 6: Which domain searched for coronavirus the most
