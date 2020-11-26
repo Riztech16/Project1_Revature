@@ -13,11 +13,16 @@ transformations and the intermediate results you produce in your presentation.
 ### Questions
 
 	1.	Which English wikipedia article got the most traffic on October 20?
+
 	2.	What English wikipedia article has the largest fraction of its readers follow an internal link to another wikipedia article?
+
 	3.	What series of wikipedia articles, starting with Hotel California, keeps the largest fraction of its 
 		readers clicking on internal links? This is similar to (2), but you should continue the analysis past the first article.
+
 	4.	Find an example of an English wikipedia article that is relatively more popular in the UK. Find the same for the US and Australia.
+
 	5.	Analyze how many users will see the average vandalized wikipedia page before the offending edit is reversed.
+	
 	6.	Run an analysis you find interesting on the wikipedia datasets we're using.
 
 ### Presentations
