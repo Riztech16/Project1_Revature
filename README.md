@@ -1,6 +1,6 @@
-# Project1_Revature.
+# Project1_Revature
 
-#Project Description
+###Project Description
 Project 1 will consist of using big data tools to answer questions about datasets from Wikipedia. There are a series of basic analysis questions.
 The questions should be answered using Hive or MapReduce. Feel free to use whichever tool seems best to you given the question 
 or a combination of the two. For each question you should have a repeatable process that would work on a 
@@ -10,28 +10,34 @@ At the very least, restricting the time period of your analyses will make some o
 You may find it useful to produce intermediate results from the input datasets. Include a brief overview of these 
 transformations and the intermediate results you produce in your presentation.
 
-#Questions
+###Questions
 
 	1.	Which English wikipedia article got the most traffic on October 20?
 	2.	What English wikipedia article has the largest fraction of its readers follow an internal link to another wikipedia article?
-	3.	What series of wikipedia articles, starting with Hotel California, keeps the largest fraction of its readers clicking on internal links? This is similar to (2), but 	 you should continue the analysis past the first article.
+	3.	What series of wikipedia articles, starting with Hotel California, keeps the largest fraction of its 
+		readers clicking on internal links? This is similar to (2), but you should continue the analysis past the first article.
 	4.	Find an example of an English wikipedia article that is relatively more popular in the UK. Find the same for the US and Australia.
 	5.	Analyze how many users will see the average vandalized wikipedia page before the offending edit is reversed.
 	6.	Run an analysis you find interesting on the wikipedia datasets we're using.
 
-#Presentations
+###Presentations
 
-	•	Bring a simple slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and  any assumptions and simplifications you made on the way to those results.
+	•	Bring a simple slide deck providing an overview of your results. You should present your results, 
+	    a high level overview of the process used to achieve those results, and  any assumptions and simplifications 
+	    you made on the way to those results.
 
-	•	Bring a simple slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and any assumptions and simplifications you made on the way to those results.
+	•	Bring a simple slide deck providing an overview of your results. You should present your results, 
+	    a high level overview of the process used to achieve those results, and any assumptions and simplifications 
+	    you made on the way to those results.
 
 	•	I may ask you to run an analysis on the day of the presentation, so be prepared to do so.
 
-	•	We'll have 5-10 minutes a piece, so make sure your presentation can be covered in that time, focusing on the parts of your analysis you find most interesting.
+	•	We'll have 5-10 minutes a piece, so make sure your presentation can be covered in that time, 
+	    focusing on the parts of your analysis you find most interesting.
 
 	•	Include a link to your github repository at the end of your slides
 
-#Technologies
+###Technologies
 	• Hadoop MapReduce
 	• Yarn
 	• HDFS
@@ -40,7 +46,7 @@ transformations and the intermediate results you produce in your presentation.
 	• Git + GitHub
 
 
-#Links for data
+###Links for data
 
 	• All Analytics:
 	  https://dumps.wikimedia.org/other/analytics/
