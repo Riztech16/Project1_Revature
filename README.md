@@ -1,6 +1,6 @@
 # Project1_Revature
 
-###Project Description
+# Project Description
 Project 1 will consist of using big data tools to answer questions about datasets from Wikipedia. There are a series of basic analysis questions.
 The questions should be answered using Hive or MapReduce. Feel free to use whichever tool seems best to you given the question 
 or a combination of the two. For each question you should have a repeatable process that would work on a 
@@ -10,7 +10,7 @@ At the very least, restricting the time period of your analyses will make some o
 You may find it useful to produce intermediate results from the input datasets. Include a brief overview of these 
 transformations and the intermediate results you produce in your presentation.
 
-###Questions
+# Questions
 
 	1.	Which English wikipedia article got the most traffic on October 20?
 	2.	What English wikipedia article has the largest fraction of its readers follow an internal link to another wikipedia article?
@@ -20,7 +20,7 @@ transformations and the intermediate results you produce in your presentation.
 	5.	Analyze how many users will see the average vandalized wikipedia page before the offending edit is reversed.
 	6.	Run an analysis you find interesting on the wikipedia datasets we're using.
 
-###Presentations
+# Presentations
 
 	•	Bring a simple slide deck providing an overview of your results. You should present your results, 
 	    a high level overview of the process used to achieve those results, and  any assumptions and simplifications 
@@ -37,7 +37,8 @@ transformations and the intermediate results you produce in your presentation.
 
 	•	Include a link to your github repository at the end of your slides
 
-###Technologies
+# Technologies
+
 	• Hadoop MapReduce
 	• Yarn
 	• HDFS
@@ -46,7 +47,7 @@ transformations and the intermediate results you produce in your presentation.
 	• Git + GitHub
 
 
-###Links for data
+# Links for data
 
 	• All Analytics:
 	  https://dumps.wikimedia.org/other/analytics/
